@@ -1,0 +1,42 @@
+{
+  "model_dir": "model_dir",
+  "train_csv": "spleeter/data/train.csv",
+  "validation_csv": "spleeter/data/valid.csv",
+  "learning_rate": 0.001,
+  "save_checkpoints_steps": 300,
+  "save_summary_steps": 100,
+  "train_max_steps": 100000,
+  "random_seed": 42,
+  "throttle_secs": 60,
+  "keep_checkpoint_max": 5,
+  "allow_growth": true,
+  "T": 512,
+  "F": 1024,
+  "n_channels": 2,
+  "sample_rate": 44100,
+  "frame_length": 4096,
+  "frame_step": 1024,
+  "mix_name": "mixture",
+  "instrument_list": ["vocals", "drums", "bass", "other"],
+  "duration": 30,
+  "chunk_duration": 20,
+  "stems": ["vocals", "drums", "bass", "other"],
+  "audio": {
+    "sample_rate": 44100,
+    "duration": 30,
+    "n_channels": 2,
+    "mono": false
+  },
+  "features": {
+    "n_fft": 2048,
+    "hop_length": 512,
+    "n_mels": 128
+  },
+  "model": {
+    "type": "unet.unet",
+    "params": {
+      "conv_activation": "ELU",
+      "deconv_activation": "ELU"
+    }
+  }
+}

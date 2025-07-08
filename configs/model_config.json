@@ -1,0 +1,44 @@
+{
+    "train_csv": "data/train.csv",
+    "validation_csv": "data/valid.csv",
+    "batch_size": 8,
+    "epochs": 50,
+    "stft_window_length": 4096,
+    "stft_hop_length": 1024,
+    "model": {
+      "type": "unet",
+      "params": {
+        "input_shape": [1024, 2],
+        "output_shape": [1024, 4],
+        "depth": 4,
+        "filters": 64
+      }
+    },
+    "outputs": [
+      {
+        "name": "vocals",
+        "params": {
+          "loss": "mae"
+        }
+      },
+      {
+        "name": "drums",
+        "params": {
+          "loss": "mae"
+        }
+      },
+      {
+        "name": "bass",
+        "params": {
+          "loss": "mae"
+        }
+      },
+      {
+        "name": "other",
+        "params": {
+          "loss": "mae"
+        }
+      }
+    ]
+  }
+  
