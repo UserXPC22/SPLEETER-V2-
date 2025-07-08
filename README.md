@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <img src="https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png" height="80" />
 
 [![Github actions](https://github.com/deezer/spleeter/workflows/pytest/badge.svg)](https://github.com/deezer/spleeter/actions) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/spleeter) [![PyPI version](https://badge.fury.io/py/spleeter.svg)](https://badge.fury.io/py/spleeter) [![Conda](https://img.shields.io/conda/vn/deezer-research/spleeter)](https://anaconda.org/deezer-research/spleeter) [![Docker Pulls](https://img.shields.io/docker/pulls/deezer/spleeter)](https://hub.docker.com/r/deezer/spleeter) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/spleeter/community) [![status](https://joss.theoj.org/papers/259e5efe669945a343bad6eccb89018b/status.svg)](https://joss.theoj.org/papers/259e5efe669945a343bad6eccb89018b)
@@ -135,3 +136,7 @@ This repository include a demo audio file `audio_example.mp3` which is an excerp
 from Slow Motion Dream by Steven M Bryant (c) copyright 2011 Licensed under a Creative
 Commons Attribution (3.0) [license](http://dig.ccmixter.org/files/stevieb357/34740)
 Ft: CSoul,Alex Beroza & Robert Siekawitch
+=======
+# SPLEETER-V2-
+Spleeter for thesis
+>>>>>>> 6cae14a3baf5085cf037fbc142736023504d195a
